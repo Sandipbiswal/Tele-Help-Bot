@@ -25,7 +25,7 @@ USER_BOT_WARN_ZERO = "`I had warned you not to spam. Now you have been blocked a
 USER_BOT_NO_WARN = ("**Welcome to SandeepBiswal's PM security.**\n\nNice to see you here, but  "
                     "[{}](tg://user?id={}) is currently unavailable.\nThis is an automated message.\n\n"
                     "{}\n\n**You have** `{}/{}` **warnings...**"
-                    "\n\n   ~ Thank You.")
+                    "\n\n   ~ Thank You. Must Join Us at @ptmlootoffers ")
 
 
 @telebot.on(admin_cmd(pattern="approve ?(.*)"))
