@@ -15,14 +15,14 @@ from userbot.utils import admin_cmd
 from userbot.events import register
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
-TELEPIC = PMPERMIT_PIC if PMPERMIT_PIC else "https://telegra.ph/file/572a121f67b75f97c7a6a.jpg"
+TELEPIC = PMPERMIT_PIC if PMPERMIT_PIC else "https://telegra.ph/file/d7a5c515f4001b008a65c.jpg"
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 myid = bot.uid
-MESAG = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "`TeleBot PM security! Please wait for me to approve you. 😊"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "TeleBot User"
+MESAG = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "`SandeepBiswal's PM security! Please wait for me to approve you. 😊"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Sandeep Biswal"
 USER_BOT_WARN_ZERO = "`I had warned you not to spam. Now you have been blocked and reported until further notice.`\n\n**GoodBye!** "
-USER_BOT_NO_WARN = ("**Welcome to TeleBot's PM security.**\n\nNice to see you here, but  "
+USER_BOT_NO_WARN = ("**Welcome to SandeepBiswal's PM security.**\n\nNice to see you here, but  "
                     "[{}](tg://user?id={}) is currently unavailable.\nThis is an automated message.\n\n"
                     "{}\n\n**You have** `{}/{}` **warnings...**"
                     "\n\n   ~ Thank You.")
